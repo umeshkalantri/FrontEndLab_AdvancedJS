@@ -1,0 +1,52 @@
+body {
+    margin: 0%;
+    background-image: url("./images/bg.jpg");
+}
+
+.container {
+    display: block;
+    width: 300px;
+    margin: 5% auto;
+}
+
+input {
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 2px orange;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 1.1em;
+}
+
+.container div {
+    text-align: center;
+    color: white;
+}
+
+#city {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#date {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+#temp {
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+#weather {
+    font-size: 1.8em;
+    font-style: italic;
+    margin-top: 40px;
+}
